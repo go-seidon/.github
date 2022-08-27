@@ -16,5 +16,5 @@ He can manage your application files which spread over the internet.
 ## 👷🏻 Architecture
 ![System Architecture][architecture-image]
 
-[goseidon-logo]: asset/go-seidon.png?raw=true
-[architecture-image]: asset/system-architecture.jpg?raw=true
+[goseidon-logo]: ./../asset/go-seidon.png?raw=true
+[architecture-image]: ./../asset/system-architecture.jpg?raw=true
