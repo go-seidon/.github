@@ -3,7 +3,7 @@ The complete storage manager solution for your application
 
 ![go-Seidon logo][goseidon-logo]
 
-With help of the other `kings` around the `ocean`, He is considered as one of the king of storage managers. 
+With help of the other `kings` around the `ocean`, he is considered as one of the greatest storage managers. 
 He can manage your application files which spread over the internet.
 
 ## 🚀 Motivations
@@ -21,33 +21,18 @@ He can manage your application files which spread over the internet.
 1. storage provider: `aws-s3`, `g-storage`, `alicloud-oss`
 2. database provider: `postgre`
 3. transport layer: `grpc`
-4. file meta key-value 
-- (storing file related data such as: user_id, feature, category, etc)
-5. file access control 
-- (visibility, meta, etc)
-6. custom access 
-- (custom link with certain limitation such as access duration, attribute user_id, etc)
-7. resize image capability
-- ?width=720&height=480
-8. bucket customization
-- auto failover
+4. file meta key-value (storing file related data such as: user_id, feature, category, etc)
+5. file access control (visibility, meta, etc)
+6. custom access (custom link with certain limitation such as access duration, attribute user_id, etc)
+7. resize image capability (?width=720&height=480)
+8. bucket customization (auto failover)
 9. file replication
-10. rule customization
-- size, extension, etc
+10. rule customization (size, extension, etc)
 11. file caching support
-12. dashboard monitoring
-- grafana + prometheus
-- export data through rest/grpc
-13. sdk
-- golang sdk
-- javascript sdk
-- php sdk
-14. golang aggregator middleware
-- gorilla/mux
-- echo 
-- gin
-- fiber
-15. golang local middleware
+12. dashboard monitoring (grafana + prometheus, export data through rest/grpc)
+13. sdk (golang, javascript, php)
+15. golang aggregator middleware (gorilla, echo, gin, fiber)
+16. golang local middleware (gorilla, echo, gin, fiber)
 
 ## 👷🏻 Architecture
 ![System Architecture][architecture-image]
