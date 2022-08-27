@@ -10,7 +10,8 @@ He can manage your application files which spread over the internet.
 1. Provide single point of entry to upload file.
 2. Provide single point of entry to access the uploaded file.
 3. Allowing multiple storage `provider`, current support is: `local`
-4. Avoid coupling between storage service provider.
+5. Allowing multiple database `provider`, current support are: `mysql`, `mongo`
+6. Allowing multiple transport `layer`, current suppoort is: `rest`
 
 ## 👷🏻 Architecture
 ![System Architecture][architecture-image]
