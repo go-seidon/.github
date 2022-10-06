@@ -1,9 +1,10 @@
 # go-Seidon
-The complete storage manager solution for your application
+The complete storage manager solution for your system
 
 ![go-Seidon logo][goseidon-logo]
 
 With help of the other `kings` around the `ocean`, he is considered as one of the greatest storage managers. 
+
 He can manage your application files which spread over the internet.
 
 ## 🚀 Motivations
@@ -11,28 +12,33 @@ He can manage your application files which spread over the internet.
 
 ## 🦄 Features
 1. Multiple storage provider
-- current support is: `local`
+- current support is: `trunk`
 2. Multiple database provider
 - current supports are: `mysql`, `mongo`
-3. Multiple transport layer
-- current suppoort is: `rest`
+3. Multiple transport provider
+- current supports are: `rest`, `grpc`
 
 ## 🧐 Upcoming Features
-1. storage provider: `aws-s3`, `g-storage`, `alicloud-oss`
-2. database provider: `postgre`
-3. transport layer: `grpc`
-4. file meta key-value (storing file related data such as: user_id, feature, category, etc)
-5. file access control (visibility, meta, etc)
-6. custom access (custom link with certain limitation such as access duration, attribute user_id, etc)
-7. resize image capability (?width=720&height=480)
-8. bucket customization (auto failover)
-9. file replication
-10. rule customization (size, extension, etc)
-11. file caching support
-12. dashboard monitoring (grafana + prometheus, export data through rest/grpc)
-13. sdk (golang, javascript, php)
-15. golang aggregator middleware (gorilla, echo, gin, fiber)
-16. golang local middleware (gorilla, echo, gin, fiber)
+1. storage chariot (agregator)
+- file meta key-value (storing file related data such as: user_id, feature, category, etc)
+2. storage provider: `aws-s3`, `g-storage`, `alicloud-oss`
+3. file access control (visibility, meta, etc)
+4. custom access (custom link with certain limitation such as access duration, attribute user_id, etc)
+5. custom upload rule (size, extension, etc)
+6. file replication
+7. file backup 
+8. upload & retrieval auto failover
+9. dashboard monitoring (grafana + prometheus, export data through rest/grpc)
+10. sdk (golang, javascript, php)
+10. golang `chariot` middleware (mux, fiber, echo, gin)
+11. golang `trunk` middleware (mux, fiber, echo, gin)
+
+## 🤩 Nice to Have
+1. database provider: `postgre`
+2. file caching support
+3. resize image capability (?width=720&height=480)
+4. bulk file upload
+5. `rack` provider grouping
 
 ## 👷🏻 Architecture
 ![System Architecture][architecture-image]
