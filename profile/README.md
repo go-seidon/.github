@@ -12,7 +12,7 @@ He can manage your application files which spread over the internet.
 
 ## 🦄 Features
 1. Multiple storage provider
-- current support is: `trunk`
+- current support is: `hippo`
 2. Multiple database provider
 - current supports are: `mysql`, `mongo`
 3. Multiple transport provider
@@ -31,7 +31,7 @@ He can manage your application files which spread over the internet.
 9. dashboard monitoring (grafana + prometheus, export data through rest/grpc)
 10. sdk (golang, javascript, php)
 10. golang `chariot` middleware (mux, fiber, echo, gin)
-11. golang `trunk` middleware (mux, fiber, echo, gin)
+11. golang `hippo` middleware (mux, fiber, echo, gin)
 
 ## 🤩 Nice to Have
 1. database provider: `postgre`
